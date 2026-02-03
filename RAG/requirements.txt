@@ -1,0 +1,26 @@
+# RAG Pipeline Dependencies - Open Source Models Only
+
+# Core dependencies
+langchain==0.1.0
+langchain-community==0.0.20
+chromadb==0.4.22
+sentence-transformers==2.3.1
+
+# Document processing
+pypdf2==3.0.1
+python-docx==1.1.0
+beautifulsoup4==4.12.3
+markdown==3.5.2
+
+# LLM (using transformers for open-source models)
+transformers==4.37.2
+torch==2.1.2
+accelerate==0.26.1
+bitsandbytes==0.41.3
+
+# Utilities
+numpy==1.26.3
+tqdm==4.66.1
+
+# Optional: For Ollama integration (alternative to transformers)
+# ollama==0.1.7
